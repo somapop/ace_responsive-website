@@ -1,0 +1,52 @@
+body {
+    background-color: teal
+}
+
+
+#intro {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+}
+
+@media only screen and (max-width: 540px) {
+    #intro {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 1.5em;
+
+     p {
+         font-family: "Courier New", Courier, monospace;
+     }   
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color: orange
+    }
+}   
+
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: brown
+    }
+}    
+
+@media only screen and (max-width: 700px) {
+    body {
+        background-color: gold
+    }
+} 
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: greenyellow
+    }
+} 
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: burlywood
+    }
+}
